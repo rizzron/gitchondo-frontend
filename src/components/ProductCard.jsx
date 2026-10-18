@@ -15,7 +15,7 @@ Displayed price: ৳${selectedSize.price.toLocaleString("en-BD")}
 
 Could you please confirm the final price, product details, availability, and delivery information? I'd like to know more before placing my order.`;
 
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   return (
     <article className="group overflow-hidden rounded-2xl border border-[#E8DED2] bg-white">
